@@ -2,6 +2,9 @@
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
+# Idempotency guard — skip if already installed
+[ -x "$HOME/.local/bin/cbrain" ] && { echo "2ndbrain-maxxing already installed. Run uninstall.sh to reinstall."; exit 0; }
+
 # Prereq check
 command -v claude >/dev/null || { echo "Claude Code not found — run cli-maxxing first: https://github.com/lorecraft-io/cli-maxxing"; exit 1; }
 [ -d "$HOME/.claude/skills" ] || { echo "~/.claude/skills missing — run cli-maxxing first"; exit 1; }
