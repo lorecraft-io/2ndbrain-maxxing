@@ -102,6 +102,12 @@ VAULT_PATH="$HOME/path/to/vault" cbrain
 ## Uninstall
 
 ```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/lorecraft-io/2ndbrain-maxxing/main/uninstall.sh)
+```
+
+Or from a local clone:
+
+```bash
 bash uninstall.sh
 ```
 
