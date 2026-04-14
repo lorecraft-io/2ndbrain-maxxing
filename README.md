@@ -136,6 +136,20 @@ have these files on disk. The installer and the statusline patcher are
 both idempotent, so re-running them on top of an existing install is safe
 — they detect "already present" and skip.
 
+## The Trilogy
+
+This is one of three repos in the cli-maxxing stack:
+
+| Repo | What it does |
+|------|-------------|
+| [`cli-maxxing`](https://github.com/lorecraft-io/cli-maxxing) | Foundation — Claude Code, shell aliases, Ruflo, dev tools, productivity MCPs |
+| [`creativity-maxxing`](https://github.com/lorecraft-io/creativity-maxxing) | Design skills + video/audio pipeline |
+| **`2ndbrain-maxxing`** | **This repo** — Obsidian PKM vault setup, cbrain/cbraintg commands |
+
+Install `cli-maxxing` first. `2ndbrain-maxxing` and `creativity-maxxing` can be installed in either order after that.
+
+---
+
 ## License
 
 MIT. See `LICENSE`.
