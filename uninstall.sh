@@ -9,4 +9,4 @@ if [ -f "$STATUSLINE" ] && grep -q "# === 2NDBRAIN SEGMENT BEGIN ===" "$STATUSLI
     "$STATUSLINE" > "$tmp" && mv "$tmp" "$STATUSLINE"
   echo "Removed 2ndBrain segment from statusline."
 fi
-echo "Uninstall complete. Your vault was NOT touched."
+echo "Uninstall complete. Your Obsidian notes were NOT touched."

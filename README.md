@@ -10,7 +10,9 @@ This repo is the vault layer of the `cli-maxxing` stack. It assumes
 
 ## Prerequisite
 
-You must install [`cli-maxxing`](https://github.com/lorecraft-io/cli-maxxing)
+> **Prereq: cli-maxxing** — install [`cli-maxxing`](https://github.com/lorecraft-io/cli-maxxing) first.
+
+You must install `cli-maxxing`
 **first**. `2ndbrain-maxxing` is a thin extension — it does not install
 Claude Code, the base alias set, the statusline, or the Telegram channel on
 its own.
