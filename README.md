@@ -41,6 +41,14 @@ bash install.sh
 
 When it finishes, run `cbrain` to open Claude Code inside the vault.
 
+## Update
+
+To pull the latest version and re-run all idempotent steps:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/lorecraft-io/2ndbrain-maxxing/main/update.sh)
+```
+
 ## What gets installed
 
 The install script runs four vault-bootstrap steps, then two wiring scripts:
