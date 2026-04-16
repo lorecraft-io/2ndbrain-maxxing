@@ -2,6 +2,7 @@
 set -euo pipefail
 STATUSLINE="${HOME}/.claude/statusline.sh"
 BEGIN="# === 2NDBRAIN SEGMENT BEGIN ==="
+# shellcheck disable=SC2034  # referenced inside the python heredoc below
 END="# === 2NDBRAIN SEGMENT END ==="
 
 [ -f "$STATUSLINE" ] || { echo "No statusline at $STATUSLINE — run cli-maxxing first."; exit 1; }
