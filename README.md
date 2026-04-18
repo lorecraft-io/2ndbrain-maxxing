@@ -55,8 +55,8 @@ The install script runs four vault-bootstrap steps, then two wiring scripts:
 
 | Script | Purpose |
 |---|---|
-| `step-7/step-7a-setup-vault.sh` | Creates the `2ndBrain/` tree (00-Inbox, 01-Fleeting, …, 08-Tasks) with templates, CLAUDE.md, and starter MOCs |
-| `step-7/step-7b-import-claude.sh` | Imports your Claude projects into `07-Projects/` so Claude Code has context |
+| `step-7/step-7a-setup-vault.sh` | Creates the `2ndBrain/` tree (01-Conversations, 02-Sources, 03-Concepts, 04-Index, 05-Projects, 06-Tasks, Claude-Memory) with templates, CLAUDE.md, and starter index notes — see [the 2ndBrain-mogging 7-folder structure](https://github.com/lorecraft-io/2ndBrain-mogging). ⚠️ This script still emits the pre-mogging 9-folder layout and is queued for a rewrite. |
+| `step-7/step-7b-import-claude.sh` | Imports your Claude projects into `05-Projects/` so Claude Code has context |
 | `step-7/step-7c-import-notes.sh` | Imports any existing Markdown notes into the appropriate vault folder |
 | `step-7/step-7d-wire-vault.sh` | Registers the Obsidian MCP server against the vault path |
 | `aliases/install-aliases.sh` | Writes `~/.local/bin/cbrain` and `~/.local/bin/cbraintg` launchers |
